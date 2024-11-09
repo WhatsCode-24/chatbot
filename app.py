@@ -36,7 +36,7 @@ list_training = [
             "salve",
             "oizinho",
         ],
-        "Olá! Como eu poderia ser útil?"
+        "Ola! Como eu poderia ser util?"
     ],
     [
         [
@@ -44,15 +44,15 @@ list_training = [
             "onde esta a pagina de visualizar usuarios",
             "como posso visualizar usuarios",
         ],
-        "Você pode encontrar a página clicando no modal que aparece quando ao clicar na página de 'Visualizar usuário'."
+        "Voce pode encontrar a pagina clicando no modal que aparece quando ao clicar na pagina de 'Gerenciar usuarios'."
     ],
     [
         [
             "listar areas",
             "listar area",
-            "listar todas áreas",
+            "listar todas areas",
         ],
-        "Você pode listar as áreas cadastradas clicando no botão 'Áreas' na barra lateral."
+        "Voce pode listar as areas cadastradas clicando no botao 'Gerenciar Areas' na barra lateral."
     ],
     [
         [
@@ -61,10 +61,112 @@ list_training = [
             "qual lugar posso verificar o acesso as areas",
             "onde poderia achar o acesso das areas",
         ],
-        "Você pode entrar na pagina de 'Ultimos Acessos' para melhor visualização do acessos."
+        "Voce pode entrar na pagina de 'Ultimos Acessos' para melhor visualizacao dos acessos."
     ],
-
+    [
+       [
+          "Como vejo o horario de funcionamento da empresa?",
+          "Qual o horario de atendimento da empresa?",
+          "A que horas a empresa abre e fecha?"
+       ],
+       "Voce pode ver o horario de funcionamento acessando o menu 'Gerenciar Empresas'. La, voce encontrara todas empresas listadas com os respectivos horarios de abertura e fechamento."
+    ],
+    [
+       [
+          "Como vejo a lista de usuarios de uma empresa?",
+          "Quais usuarios estao cadastrados em uma empresa?",
+          "Como saber quem sao os usuarios de uma empresa especifica?"
+       ],
+       "Para ver a lista de usuarios de uma empresa, va em 'Gerenciar Empresas', la, voce encontrara todos os usuarios listados"
+    ],
+    [
+       [
+          "Quais cameras estao instaladas em um comodo?",
+          "Como vejo as cameras disponiveis em um comodo especifico?",
+          "Onde encontro as cameras de um determinado local?"
+       ],
+       "Va ate 'Gerenciar Areas' e selecione o comodo desejado para visualizar as imagens das cameras."
+    ],
+    [
+       [
+          "Como vejo as portas de um comodo?",
+          "Quais portas estao instaladas em um determinado comodo?",
+          "Onde posso ver as portas de um comodo especifico?"
+       ],
+       "Para ver as portas de um comodo, acesse 'Gerenciar Areas'. La estarao listadas as portas instaladas."
+    ],
+    [
+       [
+          "Onde vejo os detalhes dos acessos em um comodo?",
+          "Como posso acessar o historico de acessos de um comodo?",
+          "Quais informacoes estao disponiveis sobre acessos em um comodo?"
+       ],
+       "No menu, va ate 'Gerenciar Acessos', la estarao listados os detalhes dos acessos"
+    ],
+    [
+       [
+          "Como saber o nivel de acesso de um usuario?",
+          "Qual o nivel de permissao de um usuario?",
+          "Como posso ver as permissoes de um usuario especifico?"
+       ],
+       "No menu 'Gerenciar Usuarios', selecione o usuario para visualizar o nivel de acesso e suas permissoes no sistema."
+    ],
+    [
+       [
+          "Como vejo os dados de um usuario?",
+          "Onde encontro as informacoes de contato de um usuario?",
+          "Como acessar o perfil de um usuario especifico?"
+       ],
+       "Acesse 'Gerenciar Usuarios' no menu, la estarao listados os dados de contato e outras informacoes de usuario."
+    ],
+    [
+       [
+          "Como posso ver as informacoes da empresa?",
+          "Quais sao os detalhes de uma empresa cadastrada?",
+          "Onde vejo o endereco e contato de uma empresa?"
+       ],
+       "No menu va em 'Gerenciar Empresas', la existe uma lista com as informacoes de todas empresas cadastradas como endereco, telefone e horarios de funcionamento."
+    ],
+    [
+       [
+          "Como vejo os comodos de uma empresa?",
+          "Onde posso encontrar informacoes sobre os comodos de uma empresa?",
+          "Como acessar a lista de comodos de uma empresa?"
+       ],
+       "No menu va em 'Gerenciar Areas', la existe uma lista com todos os comodos cadastrados."
+    ],
+    [
+       [
+          "Quem acessou uma porta recentemente?",
+          "Como vejo o historico de acessos de uma porta?",
+          "Quais foram os ultimos acessos registrados em uma porta?"
+       ],
+       "Para ver o historico de acessos de uma porta, va em 'Gerenciar Acessos', la existe uma lista com todos os registros de acessos."
+    ],
+    [
+       [
+          "Quem pode acessar um comodo especifico?",
+          "Quais usuarios tem permissao para entrar em um determinado comodo?",
+          "Como vejo as permissoes de acesso de um comodo?"
+       ],
+       "Va ate 'Gerenciar Acessos' para ver quem tem permissao de acesso em cada comodo. La voce podera configurar e visualizar as permissoes dos usuarios."
+    ],
+    [
+        [
+           "Obrigado",
+           "Valeu",
+           "Obrigada",
+           "Muito obrigado",
+           "Agradecido",
+           "Agradecida",
+           "Obrigado pela ajuda",
+           "Valeu pela assistencia"
+        ],
+        "De nada! Estou aqui para ajudar. Se precisar de mais alguma coisa, e so chamar!"
+     ]
 ]
+
+ 
 
 for treino in list_training:
     for frase in treino[0]:
